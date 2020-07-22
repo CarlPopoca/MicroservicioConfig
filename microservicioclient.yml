@@ -1,0 +1,14 @@
+server:  
+  port: ${PORT:2222}
+
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+structure:  
+  contact:
+    name: microserviciocontacts-service
+    findAllUrl: http://${structure.contact.name}/contact/findall/
+	saveUrl: http://${structure.contact.name}/contact/save/
+	deleteUrl: http://${structure.contact.name}/contact/delete/
