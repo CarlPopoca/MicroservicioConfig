@@ -8,7 +8,7 @@ eureka:
 
 structure:  
   contact:
-    name: microserviciocontacts-service
+    name: microservicio-service
     findAllUrl: http://${structure.contact.name}/contact/findall/
 	saveUrl: http://${structure.contact.name}/contact/save/
 	deleteUrl: http://${structure.contact.name}/contact/delete/
