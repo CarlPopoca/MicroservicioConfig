@@ -7,7 +7,7 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'INFO'
     org.springframework.web: 'INFO'
-    com.microserviciojava: 'DEBUG'
+    com.microservicio: 'DEBUG'
 
 # Configure this Discovery Server
 eureka:
