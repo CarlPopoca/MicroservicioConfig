@@ -6,9 +6,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
-structure:  
+microservicio:  
   contact:
-    name: microservicio-service
-    findAllUrl: http://${structure.contact.name}/contact/findall/
-	saveUrl: http://${structure.contact.name}/contact/save/
-	deleteUrl: http://${structure.contact.name}/contact/delete/
+    name: microservicio
+    findAllUrl: http://${microservicio.contact.name}/contact/findall/
+	saveUrl: http://${microservicio.contact.name}/contact/save/
+	deleteUrl: http://${microservicio.contact.name}/contact/delete/
