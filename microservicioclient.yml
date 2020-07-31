@@ -5,10 +5,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-microservicio:  
+    
+microservicio:
   contact:
-    name: microservicio
+    name: sadr
     findAllUrl: http://localhost:3333/contact/findall/
-	saveUrl: http://localhost:3333/contact/save/
-	deleteUrl: http://localhost:3333/contact/delete/
+    saveUrl: http://localhost:3333/contact/save/
+    deleteUrl: http://localhost:3333/contact/delete/
+    
