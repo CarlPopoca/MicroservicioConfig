@@ -24,7 +24,7 @@ microservicio:
 spring:
    rabbitmq:
      host: rabbitmq
-     port: 5672
+     port: 15672
      username: guest
      password: guest    
     # findAllUrl: http://${microservicio}/contact/findall/
