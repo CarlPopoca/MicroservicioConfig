@@ -20,6 +20,12 @@ microservicio:
     findAllUrl: http://localhost:3333/contact/findall/
     saveUrl: http://localhost:3333/contact/save/
     deleteUrl: http://localhost:3333/contact/delete/
-    
+
+spring:
+   rabbitmq:
+     host: rabbitmq
+     port: 5672
+     username: guest
+     password: guest    
     # findAllUrl: http://${microservicio}/contact/findall/
     
