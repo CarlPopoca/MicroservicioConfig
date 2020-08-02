@@ -17,9 +17,9 @@ logging:
 microservicio:
   contact:
     name: microservicio
-    findAllUrl: http://localhost:3333/contact/findall/
-    saveUrl: http://localhost:3333/contact/save/
-    deleteUrl: http://localhost:3333/contact/delete/
+    findAllUrl: http://${microservicio}/contact/findall/
+    saveUrl: http://${microservicio}/contact/save/
+    deleteUrl: http://${microservicio}/contact/delete/
 
 spring:
    rabbitmq:
