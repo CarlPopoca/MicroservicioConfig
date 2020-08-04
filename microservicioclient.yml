@@ -26,5 +26,8 @@ spring:
      host: localhost
      port: 5672
      username: guest
-     password: guest
+     password: guest  
+  boot:
+    admin:
+      url: http://localhost:9999
     

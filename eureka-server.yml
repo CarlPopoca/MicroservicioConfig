@@ -19,3 +19,8 @@ eureka:
     fetchRegistry: false
   server:
     enableSelfPreservation: false
+    
+spring:
+  boot:
+    admin:
+      url: http://localhost:9999 
