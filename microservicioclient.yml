@@ -22,11 +22,11 @@ microservicio:
     deleteUrl: http://${microservicio.contact.name}/contact/delete/
 
 spring:
-   rabbitmq:
-     host: localhost
-     port: 5672
-     username: guest
-     password: guest  
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest  
   boot:
     admin:
       url: http://localhost:9999
