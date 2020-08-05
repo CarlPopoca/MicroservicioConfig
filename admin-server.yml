@@ -10,3 +10,10 @@ eureka:
      # defaultZone: ${EUREKA_ENDPOINT}
   instance:
      preferIpAddress: true
+   
+#Security
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
