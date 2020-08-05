@@ -31,8 +31,6 @@ spring:
     admin:
       client:
         url: http://localhost:9999
-  security:
-    user:
-      name: admin
-      password: admin
+        username: admin
+        password: admin
     
