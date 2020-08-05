@@ -17,3 +17,5 @@ spring:
     user:
       name: admin
       password: admin
+  application:
+    name: admin-server  
