@@ -12,8 +12,8 @@ eureka:
      preferIpAddress: true
    
 #Security
-
-security:
-  user:
-    name: admin
-    password: admin
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
