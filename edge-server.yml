@@ -1,0 +1,28 @@
+# HTTP Server
+server:
+  port: ${PORT:9999}   # HTTP port
+  
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+     preferIpAddress: true
+     
+# Zuul Routes     
+zuul:
+  routes:
+    greetings:
+      path: /microservicio/**
+      serviceId: MICROSERVICIO
+      stripPrefix: false
+     
+# Security          
+spring:  
+  boot:
+    admin:
+      client:
+        url: http://localhost:9999
+        username: admin
+        password: admin
