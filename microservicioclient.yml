@@ -16,7 +16,7 @@ logging:
     
 microservicio:
   contact:
-    name: microservicio
+    name: edge-server
     findAllUrl: http://${microservicio.contact.name}/contact/findall/
     saveUrl: http://${microservicio.contact.name}/contact/save/
     deleteUrl: http://${microservicio.contact.name}/contact/delete/
