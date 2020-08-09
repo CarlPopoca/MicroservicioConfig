@@ -13,7 +13,7 @@ eureka:
 zuul:
   routes:
     greetings:
-      path: /contact12/**
+      path: /contact/**
       serviceId: MICROSERVICIO
       stripPrefix: false
      
