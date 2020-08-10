@@ -33,6 +33,4 @@ spring:
         url: http://localhost:9999
         username: admin
         password: admin
-        instance:
-          serviceBaseUrl: http://localhost:9999
     
